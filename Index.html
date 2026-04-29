@@ -3,33 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZYNTRA Storage</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="description" content="ZYNTRA Storage - Your Smart Business Hub for Digital Solutions">
+    <meta name="keywords" content="storage, business, cloud, digital platform">
+    <meta name="author" content="Johanne012">
+    <title>ZYNTRA Storage - Smart Business Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to ZYNTRA Storage</h1>
-        <nav>
-            <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-database"></i>
+                <span>ZYNTRA</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="features">
-            <h2>Features</h2>
-            <p>Discover our unique storage solutions!</p>
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>ZYNTRA Storage provides custom storage solutions tailored to your needs.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 ZYNTRA Storage. All rights reserved.</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to ZYNTRA Storage</h1>
+            <p>Your Global Platform for Smart Digital Business and Partnerships</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-cloud"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>Why Choose ZYNTRA?</h2>
+            <p>Powerful features designed for modern businesses</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Global Platform</h3>
+                <p>Connect with businesses and partners worldwide</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h3>Secure Storage</h3>
+                <p>Enterprise-grade security for your valuable data</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Partnership Hub</h3>
+                <p>Build and manage business partnerships easily</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Analytics Dashboard</h3>
+                <p>Track and monitor your business metrics in real-time</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>High-performance infrastructure for seamless experience</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Dedicated support team always ready to help</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="section-header">
+            <h2>Simple Pricing Plans</h2>
+            <p>Choose the perfect plan for your business</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> 10 GB Storage</li>
+                    <li><i class="fas fa-check"></i> Basic Support</li>
+                    <li><i class="fas fa-check"></i> 5 Projects</li>
+                    <li><i class="fas fa-times"></i> API Access</li>
+                </ul>
+                <button class="btn btn-outline">Choose Plan</button>
+            </div>
+            <div class="pricing-card featured">
+                <div class="badge">Most Popular</div>
+                <h3>Professional</h3>
+                <div class="price">$79<span>/month</span></div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> 100 GB Storage</li>
+                    <li><i class="fas fa-check"></i> Priority Support</li>
+                    <li><i class="fas fa-check"></i> Unlimited Projects</li>
+                    <li><i class="fas fa-check"></i> API Access</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <div class="price">Custom</div>
+                <ul class="features-list">
+                    <li><i class="fas fa-check"></i> Unlimited Storage</li>
+                    <li><i class="fas fa-check"></i> Dedicated Support</li>
+                    <li><i class="fas fa-check"></i> Custom Solutions</li>
+                    <li><i class="fas fa-check"></i> Advanced API</li>
+                </ul>
+                <button class="btn btn-outline">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header">
+            <h2>What Our Customers Say</h2>
+            <p>Real feedback from businesses using ZYNTRA</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"ZYNTRA has completely transformed how we manage our business data. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <strong>Sarah Johnson</strong>
+                    <span>CEO, Tech Innovations Inc</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"The security features and ease of use make ZYNTRA the perfect choice for our company."</p>
+                <div class="testimonial-author">
+                    <strong>Mike Chen</strong>
+                    <span>Director, Global Solutions Ltd</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Outstanding support team and incredible value. ZYNTRA exceeds all our expectations!"</p>
+                <div class="testimonial-author">
+                    <strong>Emma Williams</strong>
+                    <span>Manager, Creative Studios</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>We'd love to hear from you. Send us a message!</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About ZYNTRA</h4>
+                <p>Leading digital business platform for modern enterprises</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ZYNTRA Storage. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
